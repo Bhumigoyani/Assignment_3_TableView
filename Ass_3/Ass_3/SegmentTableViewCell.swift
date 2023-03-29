@@ -9,14 +9,23 @@ import UIKit
 
 class SegmentTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var myLabel: UILabel!
     
-    @IBAction func mySegment(_ sender: Any) {
+    @IBOutlet weak var segmentResult: UILabel!
+    
+    @IBOutlet weak var mySegment: UISegmentedControl!
+    
+    @IBAction func segmentchange(_ sender: Any) {
         
-        myLabel.text = "Changed"
+        if(mySegment.selectedSegmentIndex == 0)
+        {
+            segmentResult.text = "First"
+        }
+        
+        else{
+            segmentResult.text = "Second"
+        }
         
     }
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

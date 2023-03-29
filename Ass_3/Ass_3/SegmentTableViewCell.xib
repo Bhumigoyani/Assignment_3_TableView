@@ -16,21 +16,21 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="X5e-W0-lBb">
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="X5e-W0-lBb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="SBZ-VN-g9j">
-                                <rect key="frame" x="0.0" y="0.0" width="218" height="45"/>
+                                <rect key="frame" x="0.0" y="0.0" width="255" height="45"/>
                                 <segments>
                                     <segment title="First"/>
                                     <segment title="Second"/>
                                 </segments>
                                 <connections>
-                                    <action selector="mySegment:" destination="KGk-i7-Jjw" eventType="valueChanged" id="WSM-OW-QhW"/>
+                                    <action selector="segmentchange:" destination="KGk-i7-Jjw" eventType="valueChanged" id="dPu-Op-uOV"/>
                                 </connections>
                             </segmentedControl>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IpI-GX-9ca">
-                                <rect key="frame" x="238" y="0.0" width="82" height="44"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IpI-GX-9ca">
+                                <rect key="frame" x="255" y="0.0" width="65" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -47,9 +47,10 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="myLabel" destination="IpI-GX-9ca" id="apq-YW-R0H"/>
+                <outlet property="mySegment" destination="SBZ-VN-g9j" id="gou-JA-913"/>
+                <outlet property="segmentResult" destination="IpI-GX-9ca" id="BAx-Ia-cHe"/>
             </connections>
-            <point key="canvasLocation" x="113" y="20"/>
+            <point key="canvasLocation" x="112.97709923664122" y="19.718309859154932"/>
         </tableViewCell>
     </objects>
 </document>
