@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var myTable: UITableView!
-    var cellIdentifiers: [String] = ["imageCell" , "segmentCell", "progessCell", "sliderCell", "stapperCell", "switchCell"]
+    var cellIdentifiers: [String] = ["titleCell","imageCell" , "segmentCell", "progessCell", "sliderCell", "stapperCell", "switchCell", "textfieldCell"]
     override func viewDidLoad() {
         super.viewDidLoad()
       
@@ -22,6 +22,10 @@ class ViewController: UIViewController {
         // For Imagecell
         let imageCell = UINib(nibName: "ImageTableViewCell", bundle:nil)
         myTable.register(imageCell, forCellReuseIdentifier: "imageCell")
+        
+        // For CourseTitile
+        let titleCell = UINib(nibName: "titleTableViewCell", bundle:nil)
+        myTable.register(titleCell, forCellReuseIdentifier: "titleCell")
         
         // For Segement
         let segmentCell = UINib(nibName: "SegmentTableViewCell", bundle:nil)
@@ -42,6 +46,12 @@ class ViewController: UIViewController {
         // For Switch
         let switchCell = UINib(nibName: "SwitchTableViewCell", bundle:nil)
         myTable.register(switchCell, forCellReuseIdentifier: "switchCell")
+        
+        // For TextField
+        let textfieldCell = UINib(nibName: "TextFiledTableViewCell", bundle:nil)
+        myTable.register(textfieldCell, forCellReuseIdentifier: "textfieldCell")
+        
+        
         
         }
 
@@ -65,9 +75,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource
         return cell
     }
     
-    func tableView(_ tableView: UITableView, didHighlightRowAt indexPath: IndexPath) -> CGFloat {
-      return 250
-        
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 70.0
     }
+        
+    
 }
 

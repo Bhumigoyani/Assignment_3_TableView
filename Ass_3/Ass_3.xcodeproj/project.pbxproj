@@ -28,6 +28,10 @@
 		52BCFFE729DB3395004CCC44 /* StaperTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BCFFE529DB3395004CCC44 /* StaperTableViewCell.xib */; };
 		52BCFFEA29DB35E0004CCC44 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCFFE829DB35E0004CCC44 /* SwitchTableViewCell.swift */; };
 		52BCFFEB29DB35E0004CCC44 /* SwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BCFFE929DB35E0004CCC44 /* SwitchTableViewCell.xib */; };
+		52BCFFEE29DB3D47004CCC44 /* TextFiledTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCFFEC29DB3D47004CCC44 /* TextFiledTableViewCell.swift */; };
+		52BCFFEF29DB3D47004CCC44 /* TextFiledTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BCFFED29DB3D47004CCC44 /* TextFiledTableViewCell.xib */; };
+		52DE9B8929DB41D5001D0C3E /* titleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE9B8729DB41D5001D0C3E /* titleTableViewCell.swift */; };
+		52DE9B8A29DB41D5001D0C3E /* titleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52DE9B8829DB41D5001D0C3E /* titleTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +77,10 @@
 		52BCFFE529DB3395004CCC44 /* StaperTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StaperTableViewCell.xib; sourceTree = "<group>"; };
 		52BCFFE829DB35E0004CCC44 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
 		52BCFFE929DB35E0004CCC44 /* SwitchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchTableViewCell.xib; sourceTree = "<group>"; };
+		52BCFFEC29DB3D47004CCC44 /* TextFiledTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFiledTableViewCell.swift; sourceTree = "<group>"; };
+		52BCFFED29DB3D47004CCC44 /* TextFiledTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFiledTableViewCell.xib; sourceTree = "<group>"; };
+		52DE9B8729DB41D5001D0C3E /* titleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titleTableViewCell.swift; sourceTree = "<group>"; };
+		52DE9B8829DB41D5001D0C3E /* titleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = titleTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +150,10 @@
 				52BCFFE529DB3395004CCC44 /* StaperTableViewCell.xib */,
 				52BCFFE829DB35E0004CCC44 /* SwitchTableViewCell.swift */,
 				52BCFFE929DB35E0004CCC44 /* SwitchTableViewCell.xib */,
+				52BCFFEC29DB3D47004CCC44 /* TextFiledTableViewCell.swift */,
+				52BCFFED29DB3D47004CCC44 /* TextFiledTableViewCell.xib */,
+				52DE9B8729DB41D5001D0C3E /* titleTableViewCell.swift */,
+				52DE9B8829DB41D5001D0C3E /* titleTableViewCell.xib */,
 			);
 			path = Ass_3;
 			sourceTree = "<group>";
@@ -268,10 +280,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				52BCFFDF29DB27AF004CCC44 /* ProgressTableViewCell.xib in Resources */,
+				52DE9B8A29DB41D5001D0C3E /* titleTableViewCell.xib in Resources */,
 				52A538A229D4A10F00706656 /* LaunchScreen.storyboard in Resources */,
 				52BCFFE729DB3395004CCC44 /* StaperTableViewCell.xib in Resources */,
 				52A538C829D4A36D00706656 /* ImageTableViewCell.xib in Resources */,
 				52A5389F29D4A10F00706656 /* Assets.xcassets in Resources */,
+				52BCFFEF29DB3D47004CCC44 /* TextFiledTableViewCell.xib in Resources */,
 				52A5389D29D4A10D00706656 /* Main.storyboard in Resources */,
 				52BCFFEB29DB35E0004CCC44 /* SwitchTableViewCell.xib in Resources */,
 				52A538CC29D4A39800706656 /* SegmentTableViewCell.xib in Resources */,
@@ -304,9 +318,11 @@
 				52A5389A29D4A10D00706656 /* ViewController.swift in Sources */,
 				52BCFFDE29DB27AF004CCC44 /* ProgressTableViewCell.swift in Sources */,
 				52A538C729D4A36D00706656 /* ImageTableViewCell.swift in Sources */,
+				52DE9B8929DB41D5001D0C3E /* titleTableViewCell.swift in Sources */,
 				52BCFFE229DB2DCE004CCC44 /* SliderTableViewCell.swift in Sources */,
 				52BCFFEA29DB35E0004CCC44 /* SwitchTableViewCell.swift in Sources */,
 				52A5389629D4A10D00706656 /* AppDelegate.swift in Sources */,
+				52BCFFEE29DB3D47004CCC44 /* TextFiledTableViewCell.swift in Sources */,
 				52BCFFE629DB3395004CCC44 /* StaperTableViewCell.swift in Sources */,
 				52A5389829D4A10D00706656 /* SceneDelegate.swift in Sources */,
 			);

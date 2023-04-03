@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <subviews>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="W2i-qp-v1D">
-                                <rect key="frame" x="0.0" y="20" width="290.66666666666669" height="4"/>
+                                <rect key="frame" x="0.0" y="20" width="290.66666666666674" height="4"/>
                             </progressView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uh3-U0-nLD">
                                 <rect key="frame" x="310.66666666666669" y="13" width="9.3333333333333144" height="18"/>
