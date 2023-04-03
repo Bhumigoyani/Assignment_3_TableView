@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var myTable: UITableView!
-    var cellIdentifiers: [String] = ["imageCell" , "segmentCell"]
+    var cellIdentifiers: [String] = ["imageCell" , "segmentCell", "progessCell", "sliderCell", "stapperCell", "switchCell"]
     override func viewDidLoad() {
         super.viewDidLoad()
       
@@ -26,6 +26,22 @@ class ViewController: UIViewController {
         // For Segement
         let segmentCell = UINib(nibName: "SegmentTableViewCell", bundle:nil)
         myTable.register(segmentCell, forCellReuseIdentifier: "segmentCell")
+        
+        // For Progress
+        let progessCell = UINib(nibName: "ProgressTableViewCell", bundle:nil)
+        myTable.register(progessCell, forCellReuseIdentifier: "progessCell")
+        
+        // For Slider
+        let sliderCell = UINib(nibName: "SliderTableViewCell", bundle:nil)
+        myTable.register(sliderCell, forCellReuseIdentifier: "sliderCell")
+        
+        // For Stapper
+        let stapperCell = UINib(nibName: "StaperTableViewCell", bundle:nil)
+        myTable.register(stapperCell, forCellReuseIdentifier: "stapperCell")
+        
+        // For Switch
+        let switchCell = UINib(nibName: "SwitchTableViewCell", bundle:nil)
+        myTable.register(switchCell, forCellReuseIdentifier: "switchCell")
         
         }
 

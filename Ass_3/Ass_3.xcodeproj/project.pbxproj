@@ -20,6 +20,14 @@
 		52A538C829D4A36D00706656 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A538C629D4A36D00706656 /* ImageTableViewCell.xib */; };
 		52A538CB29D4A39800706656 /* SegmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A538C929D4A39800706656 /* SegmentTableViewCell.swift */; };
 		52A538CC29D4A39800706656 /* SegmentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A538CA29D4A39800706656 /* SegmentTableViewCell.xib */; };
+		52BCFFDE29DB27AF004CCC44 /* ProgressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCFFDC29DB27AF004CCC44 /* ProgressTableViewCell.swift */; };
+		52BCFFDF29DB27AF004CCC44 /* ProgressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BCFFDD29DB27AF004CCC44 /* ProgressTableViewCell.xib */; };
+		52BCFFE229DB2DCE004CCC44 /* SliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCFFE029DB2DCE004CCC44 /* SliderTableViewCell.swift */; };
+		52BCFFE329DB2DCE004CCC44 /* SliderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BCFFE129DB2DCE004CCC44 /* SliderTableViewCell.xib */; };
+		52BCFFE629DB3395004CCC44 /* StaperTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCFFE429DB3395004CCC44 /* StaperTableViewCell.swift */; };
+		52BCFFE729DB3395004CCC44 /* StaperTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BCFFE529DB3395004CCC44 /* StaperTableViewCell.xib */; };
+		52BCFFEA29DB35E0004CCC44 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCFFE829DB35E0004CCC44 /* SwitchTableViewCell.swift */; };
+		52BCFFEB29DB35E0004CCC44 /* SwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BCFFE929DB35E0004CCC44 /* SwitchTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +65,14 @@
 		52A538C629D4A36D00706656 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
 		52A538C929D4A39800706656 /* SegmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentTableViewCell.swift; sourceTree = "<group>"; };
 		52A538CA29D4A39800706656 /* SegmentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegmentTableViewCell.xib; sourceTree = "<group>"; };
+		52BCFFDC29DB27AF004CCC44 /* ProgressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTableViewCell.swift; sourceTree = "<group>"; };
+		52BCFFDD29DB27AF004CCC44 /* ProgressTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgressTableViewCell.xib; sourceTree = "<group>"; };
+		52BCFFE029DB2DCE004CCC44 /* SliderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTableViewCell.swift; sourceTree = "<group>"; };
+		52BCFFE129DB2DCE004CCC44 /* SliderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderTableViewCell.xib; sourceTree = "<group>"; };
+		52BCFFE429DB3395004CCC44 /* StaperTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaperTableViewCell.swift; sourceTree = "<group>"; };
+		52BCFFE529DB3395004CCC44 /* StaperTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StaperTableViewCell.xib; sourceTree = "<group>"; };
+		52BCFFE829DB35E0004CCC44 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		52BCFFE929DB35E0004CCC44 /* SwitchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +134,14 @@
 				52A538C629D4A36D00706656 /* ImageTableViewCell.xib */,
 				52A538C929D4A39800706656 /* SegmentTableViewCell.swift */,
 				52A538CA29D4A39800706656 /* SegmentTableViewCell.xib */,
+				52BCFFDC29DB27AF004CCC44 /* ProgressTableViewCell.swift */,
+				52BCFFDD29DB27AF004CCC44 /* ProgressTableViewCell.xib */,
+				52BCFFE029DB2DCE004CCC44 /* SliderTableViewCell.swift */,
+				52BCFFE129DB2DCE004CCC44 /* SliderTableViewCell.xib */,
+				52BCFFE429DB3395004CCC44 /* StaperTableViewCell.swift */,
+				52BCFFE529DB3395004CCC44 /* StaperTableViewCell.xib */,
+				52BCFFE829DB35E0004CCC44 /* SwitchTableViewCell.swift */,
+				52BCFFE929DB35E0004CCC44 /* SwitchTableViewCell.xib */,
 			);
 			path = Ass_3;
 			sourceTree = "<group>";
@@ -243,11 +267,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52BCFFDF29DB27AF004CCC44 /* ProgressTableViewCell.xib in Resources */,
 				52A538A229D4A10F00706656 /* LaunchScreen.storyboard in Resources */,
+				52BCFFE729DB3395004CCC44 /* StaperTableViewCell.xib in Resources */,
 				52A538C829D4A36D00706656 /* ImageTableViewCell.xib in Resources */,
 				52A5389F29D4A10F00706656 /* Assets.xcassets in Resources */,
 				52A5389D29D4A10D00706656 /* Main.storyboard in Resources */,
+				52BCFFEB29DB35E0004CCC44 /* SwitchTableViewCell.xib in Resources */,
 				52A538CC29D4A39800706656 /* SegmentTableViewCell.xib in Resources */,
+				52BCFFE329DB2DCE004CCC44 /* SliderTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +302,12 @@
 			files = (
 				52A538CB29D4A39800706656 /* SegmentTableViewCell.swift in Sources */,
 				52A5389A29D4A10D00706656 /* ViewController.swift in Sources */,
+				52BCFFDE29DB27AF004CCC44 /* ProgressTableViewCell.swift in Sources */,
 				52A538C729D4A36D00706656 /* ImageTableViewCell.swift in Sources */,
+				52BCFFE229DB2DCE004CCC44 /* SliderTableViewCell.swift in Sources */,
+				52BCFFEA29DB35E0004CCC44 /* SwitchTableViewCell.swift in Sources */,
 				52A5389629D4A10D00706656 /* AppDelegate.swift in Sources */,
+				52BCFFE629DB3395004CCC44 /* StaperTableViewCell.swift in Sources */,
 				52A5389829D4A10D00706656 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
